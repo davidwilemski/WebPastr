@@ -32,7 +32,7 @@ class MainHandler(webapp.RequestHandler):
 		<div>
 		Example:<br>
 			<code>
-				webpastr.appspot.com/post?code=testing%20WebPastr
+				http://webpastr.appspot.com/post?code=testing%20WebPastr
 			</code><br><br>
 			Output:<br>
 			<code>
@@ -40,7 +40,7 @@ class MainHandler(webapp.RequestHandler):
 			</code>
 		</div>
 
-		<p>To learn more, read my <a href="http://davidwilemski.com/blog/85/building-a-quick-and-dirty-web-service-on-google-app-engine-webpastr/">blog post</a> about it. You can also see the code on <a href="github.com/davidwilemski/webpastr">github.</p>
+		<p>To learn more, read my <a href="http://davidwilemski.com/blog/85/building-a-quick-and-dirty-web-service-on-google-app-engine-webpastr/">blog post</a> about it. You can also see the code on <a href="http://github.com/davidwilemski/webpastr">github.</p>
 		
 		"""
 		self.response.out.write(content)
