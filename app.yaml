@@ -1,0 +1,10 @@
+application: webpastr
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /
+  script: main.py
+- url: /post
+  script: post.py
