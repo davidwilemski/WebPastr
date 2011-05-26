@@ -27,7 +27,7 @@ class MainHandler(webapp.RequestHandler):
     def get(self):
 		content = """
 		<h1>WebPastr</h1>
-		<p>This is a project by <a href="davidwilemski.com">David Wilemski</a> that will create a new pastebin dump using just a url. I originally create this to use with <a href="alfredapp.com">Alfred</a> and to learn how a basic Google App Engine app works.</p>
+		<p>This is a project by <a href="http://davidwilemski.com">David Wilemski</a> that will create a new pastebin dump using just a url. I originally create this to use with <a href="http://alfredapp.com">Alfred</a> and to learn how a basic Google App Engine app works.</p>
 		<p>Please send requests to /post</p>
 		<div>
 		Example:<br>
@@ -40,7 +40,7 @@ class MainHandler(webapp.RequestHandler):
 			</code>
 		</div>
 
-		<p>To learn more, read my <a href="http://davidwilemski.com/blog/85/building-a-quick-and-dirty-web-service-on-google-app-engine-webpastr/">blog post</a> about it. You can also see the code on <a href="http://github.com/davidwilemski/webpastr">github.</p>
+		<p>To learn more, read my <a href="http://davidwilemski.com/blog/85/building-a-quick-and-dirty-web-service-on-google-app-engine-webpastr/">blog post</a> about it. You can also see the code on <a href="http://github.com/davidwilemski/webpastr">github</a></p>
 		
 		"""
 		self.response.out.write(content)
