@@ -27,7 +27,7 @@ class MainHandler(webapp.RequestHandler):
     def get(self):
 		content = """
 		<h1>WebPastr</h1>
-		<p>This is a project by <a href="http://davidwilemski.com">David Wilemski</a> that will create a new pastebin dump using just a url. I originally create this to use with <a href="http://alfredapp.com">Alfred</a> and to learn how a basic Google App Engine app works.</p>
+		<p>This is a project by <a href="http://davidwilemski.com">David Wilemski</a> that will create a new pastebin dump using just a url. I originally created this to use with <a href="http://alfredapp.com">Alfred</a> and to learn how a basic Google App Engine app works.</p>
 		<p>Please send requests to /post</p>
 		<div>
 		Example:<br>
